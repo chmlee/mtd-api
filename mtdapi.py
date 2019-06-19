@@ -2,7 +2,7 @@ import datetime
 import requests
 now = datetime.datetime.now()
 
-class cumtd:
+class mtdapi:
     
     # setup (https://developer.cumtd.com/)
 
@@ -73,7 +73,7 @@ class cumtd:
 
 
 api = 
-mtd = cumtd(api)
+mtd = mtdapi(api)
 a = mtd.get_calendar_dates_by_service()
 print(a)
 ##########################
